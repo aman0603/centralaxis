@@ -36,13 +36,13 @@ export function FeatureSection({
 }: FeatureSectionProps) {
   return (
     <section
-      className={`section-padding ${
+      className={` mb-0 p-4 ${
         darkBackground ? "bg-black/30" : "bg-black"
       } ${className}`}
     >
       <div className="container">
         <div className="feature-section-card overflow-hidden">
-          <div className="flex flex-col lg:flex-row items-center gap-12">
+          <div className="flex flex-col lg:flex-row items-center gap-8">
             <div className={`w-full lg:w-1/2 ${imageRight ? "lg:order-last" : ""}`}>
               <div className="rounded-lg overflow-hidden shadow-xl">
                 {videoSrc ? (

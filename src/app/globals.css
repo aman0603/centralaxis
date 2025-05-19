@@ -175,7 +175,7 @@
   @layer base {
     *, ::before, ::after {
       box-sizing: border-box;
-      border: 0 solid;
+      border: 0 ;
       @apply border-border;
     }
   
@@ -216,7 +216,7 @@
     }
 
     .feature-section-card {
-      @apply  rounded-lg backdrop-blur-sm p-6 border border-centralaxis-darkgray/50 shadow-lg hover:shadow-xl transition-all duration-300;
+      @apply bg-centralaxis-darkgray/50 rounded-lg backdrop-blur-sm p-6 border border-centralaxis-darkgray/50 shadow-lg hover:shadow-xl transition-all duration-300;
     }
   }
 

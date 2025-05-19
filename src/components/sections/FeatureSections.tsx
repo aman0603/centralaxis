@@ -4,9 +4,9 @@ import { FeatureSection } from "./FeatureSection";
 
 export function AIFeatureSection() {
   return (
-    <div className="bg-black py-14 px-6">
+    <div className="bg-black pb-0px px-6 ">
       <div className="container mx-auto">
-        <div className=" text-center mb-16 p-8">
+        <div className=" text-center mb-0 p-8">
           <div className="mb-2">
             <span className="inline-block px-3 py-1 text-sm font-medium bg-centralaxis-purple bg-opacity-20 text-centralaxis-purple rounded-full">
               Built for AI

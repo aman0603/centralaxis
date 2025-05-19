@@ -9,7 +9,7 @@ export function HeroSection() {
     <section
       className="relative min-h-[calc(630px-var(--header-height))] overflow-hidden pb-10">
       <div
-        className="dark:border-dark-border absolute left-0 top-0 z-0 grid h-full w-full grid-cols-[clamp(28px,10vw,120px)_auto_clamp(28px,10vw,120px)] border-b border-border"
+        className="border-x-gray-700 absolute left-0 top-0 z-0 grid h-full w-full grid-cols-[clamp(28px,10vw,120px)_auto_clamp(28px,10vw,120px)] border-b border-border"
         style={{
           borderBottomWidth: '1px',
           borderBottomStyle: 'solid',
@@ -18,7 +18,7 @@ export function HeroSection() {
       >
         <div className="col-span-1 flex h-full items-center justify-center" />
         <div
-          className="dark:border-dark-border col-span-1 flex h-full items-center justify-center border-x border-border"
+          className=" col-span-1 flex h-full items-center justify-center border-x border-border"
           style={{
             borderLeftWidth: '1px',
             borderRightWidth: '1px',
@@ -54,21 +54,21 @@ export function HeroSection() {
       >
         <div>
           <div className="mx-auto flex min-h-[288px] max-w-[80vw] shrink-0 flex-col items-center justify-center gap-2 px-2 py-4 sm:px-16 lg:px-24 text-center">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-text-primary dark:text-dark-text-primary">
+            <h1 className="text-2xl md:text-3xl lg:text-6xl font-semibold mb-4 text-text-primary dark:text-dark-text-primary">
               Data Center Management Software
             </h1>
-            <p className="text-xl md:text-2xl mb-6 max-w-3xl mx-auto text-text-tertiary dark:text-dark-text-tertiary">
+            <p className="text-sm md:text-lg mb-6 max-w-3xl mx-auto text-text-tertiary dark:text-dark-text-tertiary">
               Increase uptime, reduce costs, automate operations, and stay compliant.
             </p>
-            <p className="text-lg md:text-xl mb-8 text-centralaxis-light text-text-tertiary dark:text-dark-text-tertiary">
+            <p className="text-sm md:text-lg mb-8 text-centralaxis-light text-text-tertiary dark:text-dark-text-tertiary">
               Built for colocations, data centers, and cloud providers.
             </p>
           </div>
         </div>
         <div className="flex items-start justify-center px-4">
-          <div className="flex w-full max-w-[80vw] flex-col items-center justify-start md:!max-w-[392px]">
+          <div className="flex w-full max-w-[100vw] flex-col items-center justify-start md:!max-w-[392px]">
             <Link href="https://calendly.com/margarita-centralaxis/30min">
-              <Button className="rounded-none btn-primary text-lg px-8 py-6">Request Demo</Button>
+              <Button className="rounded-none  px-20 py-6 text-white bg-accent-500  text-sm font-medium">Request Demo</Button>
             </Link>
           </div>
         </div>

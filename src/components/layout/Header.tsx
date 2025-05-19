@@ -50,7 +50,14 @@ const navigationItems = [
   {
     label: "Sustainability Blog",
     href: "/blog",
-    subItems: [],
+    subItems: [
+      { label: " Energy Efficiency", href: "/compliance/dcoi" },
+      { label: "Stranded Energy Map", href: "/compliance/eu-2023-1791" },
+      { label: "Environmental Product Declaration", href: "/compliance/en-50600" },
+      { label: "LEED Certification", href: "/compliance/leed" },
+      { label: "Renewables Integration", href: "/compliance/iso-iec-30134-2" },
+      { label: "Power Resource Management", href: "/compliance/energy-star" },
+    ],
   },
 ];
 
@@ -83,10 +90,10 @@ export function Header() {
   };
 
   return (
-    <header className={`text-sm fixed  flex w-full justify-center border-border bg-background/60 backdrop-blur-xl transition-all border-b ${
+    <header className={`text-sm fixed top-0 z-40 flex w-full justify-center border-border  bg-background/60 backdrop-blur-xl transition-all border-b ${
         isScrolled ? "bg-centralaxis-dark shadow-lg" : "bg-transparent"
       }`}>
-      <div className="container flex h-12  py-4 ">
+      <div className=" w-full flex h-12 px-4  py-4 ">
         <div className="flex w-full items-center justify-between py-2">
           {/* Logo */}
           <div className="flex items-center justify-between gap-6 md:gap-10">
